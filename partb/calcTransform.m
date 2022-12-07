@@ -72,6 +72,6 @@ function transformationMatrix = calcTransform(q)
     addBody(robot,body7,'body6')
     addBody(robot,body8,'body7')
     %showdetails(robot)
-    transformationMatrix = getTransform(robot,conf,'base','body8');
-    Jacobian = geometricJacobian(robot,conf,'body8');
+    transformationMatrix = getTransform(robot,conf,'base','body8');   
+    %Jacobian = geometricJacobian(robot,conf,'body8');
 end
